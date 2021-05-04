@@ -1,5 +1,39 @@
-$bgColor:red;
+@import './_variables.scss';
 body{
-    background-color: $bgColor;
+    font-family: 'Antonio', sans-serif;
+  -webkit-font-smoothing:anialiased;
+  color:$dark;
 }
-$primary:green;
+nav li:last-child a{
+  background-color: $primary;
+  &:hover{
+    background-color: $primary-hover;
+  }
+  transition: $smooth;
+}
+nav li a:hover{
+  // color:$primary-hover;
+  transition: $smooth;
+  &:hover{
+    color: $primary-hover;
+  }
+}
+section.hero{
+   background-color: $secondary;
+}
+.size{
+  background-color:$secondary;
+}
+.add-to-cart{
+border: 2px solid $primary;
+color:  $primary;
+// border-radius: 1rem;
+// padding: 0.2rem;
+// padding-right: 1rem;
+// padding-left: 1rem;
+transition: $smooth;
+&:hover{
+  color: white;
+  background-color:  $primary;
+}
+}
