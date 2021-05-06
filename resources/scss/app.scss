@@ -37,3 +37,34 @@ transition: $smooth;
   background-color:  $primary;
 }
 }
+.btn-primary{
+  background: $primary;
+  transition: $smooth;
+  border: none;
+  outline: none;
+  &:hover{
+    background: $primary-hover;
+    border: none;
+  outline: none;
+  color: white;
+  }
+}
+.cart{
+  background: $grey;
+  
+}
+.amount{
+  color: $primary;
+}
+.login{
+  background-color: $secondary;
+  min-height: calc(100vh-88px);
+  a{
+    color: $primary;
+    &:hover{
+      color: $primary-hover;
+  
+    }
+  }
+ 
+}
