@@ -1,70 +1,62 @@
-@import './_variables.scss';
-body{
-    font-family: 'Antonio', sans-serif;
-  -webkit-font-smoothing:anialiased;
-  color:$dark;
+@import "./_variables.scss";
+body {
+  font-family: "Antonio", sans-serif;
+  -webkit-font-smoothing: anialiased;
+  color: $dark;
 }
-nav li:last-child a{
+nav li:last-child a {
   background-color: $primary;
-  &:hover{
+  &:hover {
     background-color: $primary-hover;
   }
   transition: $smooth;
 }
-nav li a:hover{
+nav li a:hover {
   // color:$primary-hover;
   transition: $smooth;
-  &:hover{
+  &:hover {
     color: $primary-hover;
   }
 }
-section.hero{
-   background-color: $secondary;
+section.hero {
+  background-color: $secondary;
 }
-.size{
-  background-color:$secondary;
+.size {
+  background-color: $secondary;
 }
-.add-to-cart{
-border: 2px solid $primary;
-color:  $primary;
-// border-radius: 1rem;
-// padding: 0.2rem;
-// padding-right: 1rem;
-// padding-left: 1rem;
-transition: $smooth;
-&:hover{
-  color: white;
-  background-color:  $primary;
+.add-to-cart {
+  color: $primary;
+  transition: $smooth;
+  &:hover {
+    color: white;
+    background-color: $primary;
+  }
 }
-}
-.btn-primary{
+.btn-primary {
   background: $primary;
   transition: $smooth;
   border: none;
   outline: none;
-  &:hover{
+  &:hover {
     background: $primary-hover;
     border: none;
-  outline: none;
-  color: white;
+    outline: none;
+    color: white;
   }
 }
-.cart{
+.cart {
   background: $grey;
-  
 }
-.amount{
+.amount {
   color: $primary;
 }
-.login{
+.login {
   background-color: $secondary;
   min-height: calc(100vh-88px);
-  a{
+  a {
     color: $primary;
-    &:hover{
+    &:hover {
       color: $primary-hover;
-  
     }
   }
- 
 }

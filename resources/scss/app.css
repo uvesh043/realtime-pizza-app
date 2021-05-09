@@ -32,7 +32,6 @@ section.hero {
 }
 
 .add-to-cart {
-  border: 2px solid #fe401e;
   color: #fe401e;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -58,27 +57,24 @@ section.hero {
   color: white;
 }
 
-.cart-conatiner {
-  border: 2px solid red;
-  height: 500px;
+.cart {
+  background: #ccc;
 }
 
-.black-cart {
-  margin-top: 2rem;
-  margin-left: 19rem;
-  padding: 1rem;
-  border: 2px solid red;
+.amount {
+  color: #fe401e;
 }
 
-.black-cart h1 {
-  display: inline;
-  text-align: center;
-  font-weight: bolder;
-  font-size: 1.5rem;
+.login {
+  background-color: #F8F8F8;
+  min-height: calc(100vh-88px);
 }
 
-.black-cart-img {
-  margin-right: 1rem;
-  display: inline;
+.login a {
+  color: #fe401e;
+}
+
+.login a:hover {
+  color: #b23301;
 }
 /*# sourceMappingURL=app.css.map */
