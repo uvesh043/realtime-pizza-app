@@ -5297,7 +5297,6 @@ for (var i = 0; i < addToCart.length; i++) {
   _loop(i);
 }
 
-forEach;
 var qtyCounter = document.getElementById('qtyCounter');
 
 function updateCart(pizza) {

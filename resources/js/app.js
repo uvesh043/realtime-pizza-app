@@ -11,7 +11,7 @@ for(let i=0;i<addToCart.length;i++)
             updateCart(pizza);
         })
         
-    }forEach
+    }
 
     const qtyCounter=document.getElementById('qtyCounter');
     

@@ -15,7 +15,10 @@
   "dependencies": {
     "axios": "^0.21.1",
     "axioss": "0.0.1-security",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
     "connect-mongo": "^3.2.0",
+    "cookie-parser": "^1.4.5",
     "dotenv": "^9.0.1",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
@@ -23,9 +26,12 @@
     "express-flash": "0.0.2",
     "express-session": "^1.17.1",
     "hbs": "^4.1.2",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.12.7",
     "noty": "^3.2.0-beta-deprecated",
-    "noty-img": "^3.2.0-img"
+    "noty-img": "^3.2.0-img",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",

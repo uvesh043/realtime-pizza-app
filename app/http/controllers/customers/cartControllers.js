@@ -4,7 +4,7 @@ function cartControllers() {
             const sessionObjToArray=Object.values(req.session.cart.items)
             res.render('customers/cart',{pizzaOrderList:sessionObjToArray});
             // console.log(Object.values(req.session.cart))
-            console.log(req.session.cart)
+            // console.log(req.session.cart)
            },
         update: (req, res) => {
             // STRUCTURE of Cart Object
@@ -26,9 +26,9 @@ function cartControllers() {
                 }
             }
             const cart = req.session.cart;
-            // console.log(req.body);
+            console.log(req.body);
 
-            //check if item does not exits in cart
+            //check if item with particular id(that's pizza is not exist pizza)  does not exits in cart
             if(!cart.items[req.body._id]){
                 cart.items[req.body._id]={
                     item:req.body,
